@@ -158,5 +158,11 @@ The following screenshots demonstrate the working Consul and Patroni high-availa
 
 ![Patroni switchover result](screenshots/switchover.png)
 
+## Automatic Failover Testing
+
+Automatic failover and recovery were successfully tested by stopping the Patroni service on the original primary.
+
+See [Automatic Failover Testing](docs/automatic-failover-testing.md) for the test procedure, results, and evidence.
+
 **Author:** Toffic Mohammed  
 **Project:** PostgreSQL HA with Patroni and Consul
