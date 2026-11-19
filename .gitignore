@@ -1,0 +1,36 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+*password*
+*secret*
+*token*
+
+# Local configuration
+config.local.yml
+config.local.yaml
+patroni.local.yml
+consul.local.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
